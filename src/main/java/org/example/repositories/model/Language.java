@@ -1,7 +1,8 @@
 package org.example.repositories.model;
 
-import javax.persistence.*;
+//import javax.persistence.*;
 
+/*
 @Entity
 @Table(name = "LANGUAGE")
 public class Language {
@@ -29,3 +30,4 @@ public class Language {
         Language = language;
     }
 }
+*/

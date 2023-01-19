@@ -16,6 +16,6 @@ public class App
     {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.close();
-        HibernateUtil.shutdown();
+        HibernateUtil.close();
     }
 }

@@ -1,8 +1,8 @@
 package org.example.repositories.model;
 
-import javax.persistence.*;
+/*import javax.persistence.*;
 
-/*
+
 @Entity
 @Table(name = "COUNTRY")
 public class Country {

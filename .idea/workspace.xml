@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6760ee-c204-48ac-a563-de72c184c189" name="Changes" comment="Commented model classes and updated HibernateUtil">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674136152619</updated>
       <workItem from="1674136153695" duration="199000" />
-      <workItem from="1674136359915" duration="4782000" />
+      <workItem from="1674136359915" duration="4977000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1674156959485</created>
@@ -135,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674159316573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commented model classes and updated HibernateUtil">
+      <created>1674160397172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674160397172</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

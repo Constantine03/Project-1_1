@@ -18,6 +18,10 @@ public class HibernateUtil {
     }
 
     public static SessionFactory getSessionFactory() {
+        if (sessionFactory==null){
+            initSessionFactory();
+        }
+
         return sessionFactory;
     }
 

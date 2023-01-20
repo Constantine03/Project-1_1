@@ -13,7 +13,7 @@ public class Main
 
     public static void main( String[] args )
     {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("default");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("org.example.task_one");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
 

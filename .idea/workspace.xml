@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6760ee-c204-48ac-a563-de72c184c189" name="Changes" comment="Commented model classes and updated HibernateUtil">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" afterDir="false" />
+    <list default="true" id="9e6760ee-c204-48ac-a563-de72c184c189" name="Changes" comment="Removed sessions part and reworked persistence. added persistence dependency for javax">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +58,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.51839083",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,10 +69,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Progging\Java\Project-1_1\src\main\resources" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Project-1_1" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -98,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674136152619</updated>
       <workItem from="1674136153695" duration="199000" />
-      <workItem from="1674136359915" duration="4977000" />
+      <workItem from="1674136359915" duration="13482000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1674156959485</created>
@@ -135,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674160397172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added null check in getSessionFactory">
+      <created>1674160629144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674160629144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +195,12 @@
     <MESSAGE value="Added config and persistence files" />
     <MESSAGE value="Updated pom file" />
     <MESSAGE value="Commented model classes and updated HibernateUtil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented model classes and updated HibernateUtil" />
+    <MESSAGE value="added null check in getSessionFactory" />
+    <MESSAGE value="Removed sessions part and reworked persistence. added persistence dependency for javax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed sessions part and reworked persistence. added persistence dependency for javax" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

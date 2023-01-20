@@ -1,6 +1,5 @@
 package org.example.repositories;
 
-/*
 import org.example.repositories.model.Country;
 
 import javax.persistence.EntityManager;
@@ -31,4 +30,3 @@ public class Repository {
 
 
 }
-*/

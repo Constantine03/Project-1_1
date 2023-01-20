@@ -1,10 +1,10 @@
 package org.example.repositories.model;
 
-/*import javax.persistence.*;
+import javax.persistence.*;
 
 
 @Entity
-@Table(name = "COUNTRY")
+@Table(name = "COUNTRY", schema = "Task1")
 public class Country {
 
     @Id
@@ -48,4 +48,4 @@ public class Country {
     }
 
 }
-*/
+

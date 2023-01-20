@@ -1,6 +1,6 @@
 package org.example.repositories.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 
 @Entity

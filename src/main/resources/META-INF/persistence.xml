@@ -5,13 +5,13 @@
              version="2.1">
 
     <persistence-unit name="org.example.task_one" transaction-type="RESOURCE_LOCAL">
-        <class>org.example.repositories.model.Country</class>
+        <class>org.example.repositories.model.CountryEntity</class>
         <class>org.example.repositories.Repository</class>
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/postgres" /> <!-- BD Mane -->
-            <property name="javax.persistence.jdbc.user" value="postgres" /> <!-- DB User -->
-            <property name="javax.persistence.jdbc.password" value="12345" /> <!-- DB Password -->
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/postgres" /> <!-- BD Mane -->
+            <property name="jakarta.persistence.jdbc.user" value="postgres" /> <!-- DB User -->
+            <property name="jakarta.persistence.jdbc.password" value="12345" /> <!-- DB Password -->
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> <!-- DB Dialect -->
             <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- create / create-drop / update -->

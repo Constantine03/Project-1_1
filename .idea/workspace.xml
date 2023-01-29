@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6760ee-c204-48ac-a563-de72c184c189" name="Changes" comment="Renamed persistence-unit in Main">
+    <list default="true" id="9e6760ee-c204-48ac-a563-de72c184c189" name="Changes" comment="Removed javax in favor of jakarta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/CountryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/model/LanguageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.51839083",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "Console",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,7 +99,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674136152619</updated>
       <workItem from="1674136153695" duration="199000" />
-      <workItem from="1674136359915" duration="14993000" />
+      <workItem from="1674136359915" duration="16568000" />
+      <workItem from="1674387852967" duration="3743000" />
+      <workItem from="1674404963025" duration="184000" />
+      <workItem from="1674405154626" duration="9092000" />
+      <workItem from="1674569245431" duration="22000" />
+      <workItem from="1674569651191" duration="16000" />
+      <workItem from="1674570294027" duration="5793000" />
+      <workItem from="1674578118168" duration="18732000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1674156959485</created>
@@ -166,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674209810565</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed javax in favor of jakarta">
+      <created>1674210589591</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674210589591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +221,8 @@
     <MESSAGE value="added null check in getSessionFactory" />
     <MESSAGE value="Removed sessions part and reworked persistence. added persistence dependency for javax" />
     <MESSAGE value="Renamed persistence-unit in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed persistence-unit in Main" />
+    <MESSAGE value="Removed javax in favor of jakarta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed javax in favor of jakarta" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
